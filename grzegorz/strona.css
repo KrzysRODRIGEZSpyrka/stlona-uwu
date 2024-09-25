@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    background-color:gray;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 1px solid black;
+}
+.one{
+    height: 2040px;
+    width: 7%;
+    background-color: gray;
+    font-size: larger;
+}
+
+.two{
+    float: left;
+    height: 2040px;
+    width:90%;
+    background-color: azure;  
+}
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+}
+.trzy{
+    height: 2040px;
+    width: 7%;
+    background-color: gray;
+    float: left;
+}
+.jeden{
+    display: flex;
+    width: 100%;
+    height: 2040px;
+    
+}
+li{
+    height: 30px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}  
+li a:hover{
+    background-color: darkred;
+    color: black;
+    text-align: center;
+}
+footer p {
+    height:20px ;
+    width:100%;
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.onee img{
+    margin-left: 45%;
+}
+.onee h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.onee p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.two h2{
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 100px;
+    width: auto;
+}
+.p{
+    text-align: center;   
+    background-color:gray;  
+    border-style: double;
+    height: 200px;
+    width: 6%;   
+    border-style: double;   
+    position: fixed; 
+
+}
+
+
+@media only screen and (max-width: 500px){
+    *{ 
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .p{
+        height: auto;
+        width: 100px;
+    }
+    .one{
+        height: auto;
+        width: 7%;
+    }
+    .two{
+        height: auto;
+        width: 90%;
+    }
+    .trzy{
+        height: auto;
+        width: 7%;
+    }
+    .jeden{
+        width: 100%;
+        height: auto;
+    }
+    footer{
+        height: auto;
+        width: 100%;
+    }
+}
+.image:nth-child(1) {
+    background: #ffffff00;
+    animation: right 2.05s infinite ease-in-out;
+  }
+  @-webkit-keyframes right {
+    0% {
+      transform: translate(-10px);
+    }
+    50% {
+      transform: translate(10px);
+    }
+    100% {
+      transform: translate(-10px);
+    }
+  }
